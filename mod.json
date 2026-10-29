@@ -1,0 +1,32 @@
+{
+	"geode": "4.0.0",
+	"gd": {
+		"win": "2.2081",
+		"android": "2.2081",
+		"mac": "2.2081",
+		"ios": "2.2081"
+	},
+	"id": "grok.misclick_saver",
+	"name": "Misclick Saver",
+	"version": "v1.1.0",
+	"developer": "Grok",
+	"description": "Si das un misclick, en vez de morir actúa como si lo hubieras hecho bien y continúas el nivel.",
+	"links": {
+		"community": ""
+	},
+	"settings": {
+		"enabled": {
+			"type": "bool",
+			"name": "Activado por defecto",
+			"default": true
+		},
+		"show-message": {
+			"type": "bool",
+			"name": "Mostrar mensaje \"¡Lo hiciste bien!\"",
+			"default": true
+		}
+	},
+	"dependencies": {
+		"geode.node-ids": ">=1.12.0"
+	}
+}
